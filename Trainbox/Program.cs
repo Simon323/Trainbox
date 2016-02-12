@@ -1,15 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System; 
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Trainbox
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+            //string openFile = @"D:\Studia\MMDS\Next\train.csv";
+            //string saveToFile = "train.txt";
+
+            string openFile = @"D:\Studia\MMDS\Next\test.csv";
+            string saveToFile = "test.txt";
+            CSVProcessing.ConvertCSV(openFile, saveToFile);
         }
     }
 }
